@@ -5,12 +5,12 @@ variable "aws_region" {
 
 variable "key_name" {
   description = " SSH keys to connect to ec2 instance"
-  default     = "n_virginia_key"
+  default     = "tf_key2"
 }
 
 variable "private_key_path" {
   description = " SSH keys to connect to ec2 instance"
-  default     = "n_virginia_key.pem"
+  default     = "tf_key2.pem"
 }
 
 
