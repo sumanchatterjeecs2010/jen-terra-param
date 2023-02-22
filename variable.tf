@@ -34,11 +34,11 @@ variable "ami_id" {
 }
 
 
-variable "vpc-cidr" {
-  default     = "10.0.0.0/16"
-  description = "VPC CIDR BLOCK"
-  type        = string
-}
+#variable "vpc-cidr" {
+#  default     = "10.0.0.0/16"
+#  description = "VPC CIDR BLOCK"
+#  type        = string
+#}
 variable "Public_Subnet_1" {
   default     = "10.0.0.0/24"
   description = "Public_Subnet_1"
